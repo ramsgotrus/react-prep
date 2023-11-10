@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.usersList{
+  padding:2rem;
+}
+
+.userItem{
+  display:grid;
+  padding:2rem;
+  border:1px solid black;
+  grid-gap:50px;
+  grid-template-columns: repeat(auto-fit, minMax(100px, 1fr))
+}
